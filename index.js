@@ -4,5 +4,5 @@ const returnFirstTwoDrivers = function (array) {
 };
 
 const returnLastTwoDrivers = function () {
-  return 6 + 9;
+  return newerArr = [array[3], array[4]]
 };
