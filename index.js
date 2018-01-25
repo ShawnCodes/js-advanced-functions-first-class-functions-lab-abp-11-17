@@ -3,6 +3,6 @@ const returnFirstTwoDrivers = function (array) {
   return newArr = [array[0], array[1]]
 };
 
-const returnLastTwoDrivers = function () {
+const returnLastTwoDrivers = function (array) {
   return newerArr = [array[3], array[4]]
 };
