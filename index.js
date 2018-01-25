@@ -1,10 +1,12 @@
 // Code your solution in this file!
-const returnFirstTwoDrivers = function (array) {
-  return newArr = [array[0], array[1]]
+const returnFirstTwoDrivers = function (array){
+  const newArray = array.slice(0, 2);
+  return newArray;
 };
 
-const returnLastTwoDrivers = function (array) {
-  return newerArr = [array[2], array[3]]
+const returnLastTwoDrivers = function (array){
+  const newArray = array.slice(array.length-2, array.length);
+  return newArray;
 };
 
-const selectingDrivers = [returnFirstTwoDrivers(), returnLastTwoDrivers()];
+const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
